@@ -81,10 +81,11 @@ s.connect(('localhost',8000))
 print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
+
 ```
-## Result:
+## Output:
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3070e101-6dba-4c41-ba7d-6487758eb8b1" />
 
 
-
+## Result:
 Thus the study of Socket Programming Completed Successfully
